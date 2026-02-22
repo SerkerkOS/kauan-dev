@@ -6,7 +6,7 @@ const projects = [
     title: "Nike Store - Front-end",
     description:
       "Interface inspirada no site da Nike, desenvolvida com React e Tailwind CSS, com layout responsivo, páginas de produtos e carrinho de compras.",
-    image: "/projects/project1.png",
+    image: `${import.meta.env.BASE_URL}projects/project1.png`,
     tags: ["React", "TailwindCSS", "Vite"],
     demoUrl: "#",
     githubUrl: "https://github.com/SerkerkOS/projeto-backend",
@@ -16,7 +16,7 @@ const projects = [
     title: "API de E-commerce",
     description:
       "Backend para e-commerce com autenticação de usuários, gerenciamento de produtos e integração com banco de dados.",
-    image: "/projects/project2.png",
+    image: `${import.meta.env.BASE_URL}projects/project2.png`,
     tags: ["Node.js", "Express", "Banco de Dados"],
     demoUrl: "#",
     githubUrl: "https://github.com/SerkerkOS/Drip-store",
@@ -26,7 +26,7 @@ const projects = [
     title: "Portfólio Pessoal",
     description:
       "Site de portfólio desenvolvido para apresentar meus projetos, habilidades e informações de contato, utilizando React, Tailwind CSS e boas práticas de componentização.",
-    image: "/projects/project3.png",
+    image: `${import.meta.env.BASE_URL}projects/project3.png`,
     tags: ["React", "TailwindCSS", "Vite"],
     demoUrl: "#",
     githubUrl: "#",
