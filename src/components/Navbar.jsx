@@ -31,14 +31,14 @@ export const Navbar = () => {
           : "py-4 md:py-5",
       )}
     >
-      <div className="container flex items-center justify-between min-h-14">
+      <div className="container flex items-center justify-between min-h-14 gap-3">
         <a
-          className="text-xl font-bold text-primary flex items-center"
+          className="text-lg sm:text-xl font-bold text-primary flex items-center"
           href="#hero"
         >
           <span className="relative z-10">
             <span className="text-glow text-foreground"> Kauan Bastos </span>{" "}
-            Portfolio
+            <span className="hidden sm:inline">Portfolio</span>
           </span>
         </a>
 

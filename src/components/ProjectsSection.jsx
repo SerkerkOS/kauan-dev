@@ -35,20 +35,20 @@ const projects = [
 
 export const ProjectsSection = () => {
   return (
-    <section id="projects" className="py-24 px-4 relative">
+    <section id="projects" className="py-16 sm:py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-center">
           {" "}
           Projetos em <span className="text-primary"> Destaque </span>
         </h2>
 
-        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+        <p className="text-center text-muted-foreground mb-8 sm:mb-12 max-w-2xl mx-auto">
           Aqui estão alguns dos meus projetos recentes. Cada um foi desenvolvido
           com atenção aos detalhes, organização de código, performance e
           experiência do usuário.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {projects.map((project, key) => (
             <div
               key={key}
