@@ -20,7 +20,7 @@ export const HeroSection = () => {
             </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+          <p className="text-lg md:text-xl leading-relaxed text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
             Sou desenvolvedor web em início de carreira, técnico em Redes de
             Computadores e atualmente cursando Análise e Desenvolvimento de
             Sistemas. Possuo boa base em front-end e compreensão da
