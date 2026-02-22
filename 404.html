@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Not Found</title>
+    <script>
+      (function () {
+        var l = window.location;
+        var base = "/kauan-dev";
+        var path = l.pathname;
+        if (path.startsWith(base)) {
+          path = path.slice(base.length);
+        }
+        var redirect =
+          l.origin +
+          base +
+          "/?redirect=" +
+          encodeURIComponent(path + l.search + l.hash);
+        l.replace(redirect);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
