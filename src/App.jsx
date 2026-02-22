@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Toaster />
-      <BrowserRouter>
+      <BrowserRouter basename="/kauan-dev">
         <Routes>
           <Route index element={<Home />} />
           <Route path="*" element={<NotFound />} />
